@@ -8,7 +8,7 @@ namespace Events
 
             static void Main(string[] args)
             {
-                Counter c = new Counter(new Random().Next(10));
+                Counter c = new Counter(new Random().Next(15));
                 c.ThresholdReached += c_ThresholdReached;
 
                 Console.WriteLine("press 'a' key to increase total");
