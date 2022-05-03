@@ -8,6 +8,8 @@ namespace Events
 
             static void Main(string[] args)
             {
+
+                //this is featre branch adding this.
                 Counter c = new Counter(new Random().Next(15));
                 c.ThresholdReached += c_ThresholdReached;
 
